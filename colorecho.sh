@@ -1,6 +1,6 @@
 # color echo
 # usage: cecho <msg> [<fgcolor>] [<bgcolor>]
-function cecho()
+function cecho
 {
     msg=$1
     fgcolor=$2
@@ -35,7 +35,7 @@ function cecho()
     return
 }
 
-function cecho_bold()
+function cecho_bold
 {
     tput bold
     cecho ">>>> $1 <<<<" $2 $3
