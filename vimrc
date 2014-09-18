@@ -23,6 +23,8 @@ set autowrite       " Automatically save before commands like :next and :make
 
 set visualbell
 
+set cursorline
+
 " So what, I can't type...
 map :WQ :wq
 map :Wq :wq
