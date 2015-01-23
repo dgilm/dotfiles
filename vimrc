@@ -25,6 +25,11 @@ set visualbell
 
 set cursorline
 
+set autoread        " Auto read when a file is changed from the outside
+set confirm         " Raise a dialogue asking if you wish to save changed files
+set laststatus=2    " Always display the status line
+set wildmenu        " Visual autocomplete for command menu
+
 " So what, I can't type...
 map :WQ :wq
 map :Wq :wq
