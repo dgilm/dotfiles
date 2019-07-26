@@ -1,0 +1,37 @@
+// install in ~/.config/Code/User/settings.json
+{
+    "editor.rulers": [
+        71,
+        79,
+        99,
+    ],
+    // "editor.minimap.enabled": false,
+    "window.menuBarVisibility": "toggle",
+    "files.trimTrailingWhitespace": true,
+    "terminal.integrated.lineHeight": 0.8,
+    "terminal.integrated.confirmOnExit": true,
+
+    // git
+    "diffEditor.renderSideBySide": false,
+
+    // python linter
+    "python.linting.pep8Enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.pylintEnabled": false,
+
+    // syntax highlight
+    "files.associations": {
+        "*.sls": "yaml",
+        "Vagrantfile": "ruby"
+    },
+    "window.zoomLevel": 0,
+
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.fontFamily": "'Ubuntu mono'",
+    "window.titleBarStyle": "custom",
+    "workbench.colorTheme": "One Dark Pro",
+    "editor.fontSize": 18,
+    "terminal.integrated.fontSize": 16
+}
