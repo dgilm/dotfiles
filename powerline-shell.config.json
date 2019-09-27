@@ -1,0 +1,21 @@
+{
+  "segments": [
+    "virtual_env", 
+    "username",
+    "ssh", 
+    "cwd", 
+    "git",
+    "git_stash",
+    "jobs",
+    "battery",
+    "exit_code",
+    "newline",
+    "root"
+  ],
+  "mode": "flat",
+  "theme": "default",
+  "battery": {
+    "low_threshold": 35,
+    "always_show_percentage": false
+  }
+}
